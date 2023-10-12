@@ -31,13 +31,13 @@ function changeRgb(channel, value) {
   switch (channel) {
     case "red":
       // STEP 3: Inside each case, update the appropriate global rgb array element (0, 1, or 2)
-      rgb[0] = parseInt(value);
+      rgb[0] = value;
       break;
     case "green":
-      rgb[1] = parseInt(value);
+      rgb[1] = value;
       break;
     case "blue":
-      rgb[2] = parseInt(value);
+      rgb[2] = value;
       break;
   }
   // STEP 4: Return the updated rgb array back to the event handler
@@ -46,7 +46,7 @@ function changeRgb(channel, value) {
 
 // STEP 5: Write a new function called writeCSS that accepts one parameter, the updated rgb array
 function writeCSS(newRgb) {
-  // STEP 6: Declare a new local variable called newColor that will contain the new string
+  // STEP 6: Declare a new local variable called  that will contain the new string
   let newColor = "rgb(";
   let i = 0;
 
