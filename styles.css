@@ -5,6 +5,7 @@ html {
     transition-property: background-color;
     transition-duration: 0.25s;
 }
+
 body {
     font-family: sans-serif;
     margin: 40px;
